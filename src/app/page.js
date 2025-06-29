@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import WorkProcess from "./components/WorkProcess";
@@ -12,6 +13,7 @@ export default function Home() {
       <About></About>
       <WorkProcess></WorkProcess>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }
